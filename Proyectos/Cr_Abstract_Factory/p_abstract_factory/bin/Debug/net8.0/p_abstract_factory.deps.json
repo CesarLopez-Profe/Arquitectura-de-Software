@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "p_abstract_factory/1.0.0": {
+        "runtime": {
+          "p_abstract_factory.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "p_abstract_factory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
