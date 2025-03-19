@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\p_estr_composite_caja.csproj": {}
+    "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Arq_sw_git_h\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\p_estr_composite_caja.csproj": {}
   },
   "projects": {
-    "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\p_estr_composite_caja.csproj": {
+    "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Arq_sw_git_h\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\p_estr_composite_caja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\p_estr_composite_caja.csproj",
+        "projectUniqueName": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Arq_sw_git_h\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\p_estr_composite_caja.csproj",
         "projectName": "p_estr_composite_caja",
-        "projectPath": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\p_estr_composite_caja.csproj",
+        "projectPath": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Arq_sw_git_h\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\p_estr_composite_caja.csproj",
         "packagesPath": "C:\\Users\\000096175\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\obj\\",
+        "outputPath": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Arq_sw_git_h\\Proyectos\\Est_Composite_2\\p_estr_composite_caja\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
