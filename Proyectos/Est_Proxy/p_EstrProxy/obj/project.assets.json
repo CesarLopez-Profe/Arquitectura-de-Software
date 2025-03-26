@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Proyectos\\Est_Proxy\\p_EstrProxy\\p_EstrProxy.csproj",
+      "projectUniqueName": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Arq_sw_git_h\\Proyectos\\Est_Proxy\\p_EstrProxy\\p_EstrProxy.csproj",
       "projectName": "p_EstrProxy",
-      "projectPath": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Proyectos\\Est_Proxy\\p_EstrProxy\\p_EstrProxy.csproj",
+      "projectPath": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Arq_sw_git_h\\Proyectos\\Est_Proxy\\p_EstrProxy\\p_EstrProxy.csproj",
       "packagesPath": "C:\\Users\\000096175\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Proyectos\\Est_Proxy\\p_EstrProxy\\obj\\",
+      "outputPath": "C:\\Users\\000096175\\OneDrive - UPB\\Cursos Pregrado\\Arquitectura_Software\\Arq_sw_git_h\\Proyectos\\Est_Proxy\\p_EstrProxy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
