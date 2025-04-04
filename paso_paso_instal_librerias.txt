@@ -1,0 +1,91 @@
+solución en blanco
+Comprobación de la versión de SDK y .NET
+dotnet --versión
+
+Creación de un proyecto en ASP.NET Core con Entity Framework Core.
+
+ubicarse en la carpeta destino
+dotnet new webapi -n <<Nombre proyecto>>
+
+Luego, abrir el proyecto desde visual studio
+
+en el NuGet:
+cd <<carpeta del proyecto>>
+Instalación de estos paquetes: 
+
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package MediatR
+dotnet add package FluentValidation
+dotnet add package Microsoft.Extensions.Caching.Memory
+dotnet add package Microsoft.EntityFrameworkCore.InMemory //base de datos en memoria
+
+
+
+Instalación de  la herramienta CLI de Entity Framework Core, para usar el comando dotnet ef
+dotnet tool install --global dotnet-ef
+
+
+Confirma que funciona, devuelve lista de comandos como migrations, database
+dotnet ef
+
+Crear las capas de la arquitectura 
+
+📂 PrestamosVehiculos
+ ├── 📂 Core (Capa de Dominio)
+ │    ├── 📂 Entities
+ │    ├── 📂 ValueObjects
+ │    ├── 📂 Aggregates
+ │    ├── 📂 Services
+ │    ├── 📂 Events
+ │    ├── 📂 Interfaces
+ │
+ ├── 📂 Infrastructure (Persistencia, ORM)
+ │    ├── 📂 Persistence
+ │    ├── 📂 Repositories
+ │    ├── 📂 Configuration
+ │
+ ├── 📂 Application (Orquestación de Casos de Uso)
+ │    ├── 📂 DTOs
+ │    ├── 📂 Commands
+ │    ├── 📂 Queries
+ │    ├── 📂 Handlers
+ │
+ ├── 📂 API (Capa de Presentación)
+
+Implementar objetos a la capa core o de dominio
+
+Implementar objetos a la capa de Infraestructura
+
+Implementar objetos a la capa de aplicación
+
+Implementar objetos a la capa de API
+
+Implementar el program.cs con los builder necesarios 
+
+revisar en properties\launchsetting.json que si esté swagger
+"launchUrl": "swagger"
+
+
+compilar
+
+
+ejecuta la migración
+
+Desde la carpeta raíz del proyecto donde está el archivo .csproj que contiene tu DbContext, ejecuta:
+dotnet ef migrations add InitialCreate
+
+Aplica la migración
+dotnet ef database update
+
+Compilar, ejecutar y ver errores en el proyecto
+dotnet build
+
+Ejecución del proyecto
+cd C:\Users\000096175\PrestamosVehiculos
+
+dotnet run
+
+
