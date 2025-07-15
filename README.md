@@ -8,7 +8,7 @@ Cabe aclarar que esta tabla resume brevemente el contenido de cada documento, pa
 
 ## Documentos	
 
-  • [Trayecto de la materia](Planeacion_curso_Arquitectura_Sw_2025-1.xlsx) 
+  • [Trayecto de la materia](Planeacion_curso_Arquitectura_Sw_2025-2.xlsx) 
 
 
 
@@ -18,8 +18,16 @@ Cabe aclarar que esta tabla resume brevemente el contenido de cada documento, pa
 
   • [Repaso POO y Funcional](Slides/1.Repaso_POO_Paradigmas_NF.pptx)
 
-  • [Introducción Arquitectura de Software](Slides/2.Intro_Arquitectura.pdf)
+  • [Introducción Arquitectura de Software]()
 
   • [Principios Solid (Próximo a Publicar)]()
+
+  • [Principios Patrones Creacionales (Próximo a Publicar)]()
+
+  • [Principios Patrones Estructurales (Próximo a Publicar)]()
+
+  • [Domain Driven Design (Próximo a Publicar)]()
+
+  • [Arquitectura de Aplicaciones TOGAF (Próximo a Publicar)]()
 
   
