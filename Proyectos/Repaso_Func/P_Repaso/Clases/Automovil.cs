@@ -36,9 +36,13 @@ namespace P_Repaso.Clases
 
         //Accesores usando expresiones ternarias, 
         //La sintaxis throw en una expresión ternaria es posible desde C# 7.0
+        
         public string Placa
         {
-            get => placa; set => placa = validarPlaca(value) ? value : throw new Exception("Placa No Válida");
+            get => placa; 
+            set => placa = !(string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value) || value.Length != Concesionario.long_placa_nombempr_tax ||
+            value.Substring(0, 2).ToCharArray().Any(c => !char.IsLetter(c))) ? 
+                value : throw new Exception("Placa No Válida");  //Esta no usa la función lambda como las demás sino que realiza la validación dentro de la ternaria
             
         }
 
@@ -83,10 +87,15 @@ namespace P_Repaso.Clases
             
         }
         
-        // Delegado para validación de placa
-       private Func<string, bool> validarPlaca = (value) =>
+        // Aternativas: tener Delegados Func para las validaciones
+       
+        /* Delegado para la validación de placa
+
+        private Func<string, bool> validarPlaca = (value) =>
             !(string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value) || value.Length != Concesionario.long_placa_nombempr_tax ||
             value.Substring(0, 2).ToCharArray().Any(c => !char.IsLetter(c))) ? true : false;
+
+        */
 
         // Delegado para validación de marca
         private Func<string, bool> validarMarca = (value) =>
