@@ -48,7 +48,7 @@ namespace P_Repaso.Clases
 
         public string Marca
         {
-            get => marca; set => marca = validarMarca(value) ? value : throw new Exception("Marca No Válida");
+            get => marca; set => marca = validarMarca(value) ? value : throw new Exception("Marca No Válida"); //pasando por una FUNC
             
         }
 

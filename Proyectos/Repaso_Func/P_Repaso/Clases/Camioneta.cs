@@ -22,13 +22,14 @@ namespace P_Repaso.Clases
 
         public byte Nro_exploradoras
         {
-            get => nro_exploradoras; set => nro_exploradoras = validarNroExploradoras(value);
+            get => nro_exploradoras; set => nro_exploradoras = validarNroExploradoras(value); //pasa por la func
         }
 
         private Func<byte, byte> validarNroExploradoras = (value) =>
         {
-            if (value < 2 || value > 6) throw new Exception("Número de exploradoras No válido");
-            return value;
+            /*if (value < 2 || value > 6) throw new Exception("Número de exploradoras No válido");
+            return value;*/
+            return (value < 2 || value > 6) ? throw new Exception("Número de exploradoras No válido") : value;
         };
 
         public override string Consultar_plan_mtto()

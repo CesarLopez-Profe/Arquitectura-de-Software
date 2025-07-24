@@ -19,9 +19,12 @@ namespace P_Repaso.Clases
         {
             get => descuento; set
             {
-                if (value < Concesionario.descto_menor || value > Concesionario.descto_mayor)
+                /*if (value < Concesionario.descto_menor || value > Concesionario.descto_mayor)
                     throw new Exception("Descuento No válido");
-                else descuento = value;
+                else descuento = value;*/
+                descuento = (value < Concesionario.descto_menor || value > Concesionario.descto_mayor)
+                ? throw new Exception("Descuento No válido")
+                : value;
             }
         }
 
