@@ -1,0 +1,17 @@
+Crear dentro de .github\agents\Solid, un nuevo skill que evalúe para el principio LSP de solid llamado Liskov Substitution. Entre las capacidades debe sugerir nuevas estructuras con aplicación de interfaces, o relaciones todo-partes de composición o agregación cuando las herencias estén siendo forzadas.
+
+El protocolo de Evaluación debe incluir los siguientes requisitos:
+Los tipos de parámetros en un método de una subclase deben coincidir o ser más abstractos que los tipos de parámetros en el método de la superclase.
+
+El tipo de retorno en un método de una subclase debe coincidir o ser un subtipo del tipo de retorno en el método de la superclase.
+
+Un método en una subclase no debe generar tipos de excepciones que no se espera que genere el método base
+
+Una subclase no debe reforzar las condiciones previas
+
+Una subclase no debe debilitar las condiciones posteriores
+
+Las invariantes de una superclase deben conservarse
+
+Una subclase no debe cambiar los valores de los campos privados de la superclase.
+
